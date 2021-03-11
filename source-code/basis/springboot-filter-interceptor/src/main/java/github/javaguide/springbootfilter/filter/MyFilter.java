@@ -37,7 +37,7 @@ public class MyFilter implements Filter {
         filterChain.doFilter(servletRequest, servletResponse);
         // 上面的 doFilter 方法执行结束后用户的请求已经返回
         long endTime = System.currentTimeMillis();
-        System.out.println("该用户的请求已经处理完毕，请求花费的时间为：" + (endTime - startTime));
+        System.out.println("该用户的请求已经处理完毕，请求花费的时间为: " + (endTime - startTime));
     }
 
     @Override
