@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * @author shuang.kou
  */
-@ControllerAdvice(assignableTypes = {ExceptionController.class})
+@ControllerAdvice
 @ResponseBody
 public class GlobalExceptionHandler {
 
